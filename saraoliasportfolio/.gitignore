@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Directorios de node.js y producción
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos y carpetas temporales de sistema
+# Windows system folders (específicos para evitar la inclusión de archivos no deseados)
+AppData/Local/*
+AppData/Roaming/*
+OneDrive/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+Pictures/
+Videos/
+
+# Ignorar archivos y carpetas de sistema específicos
+*.bak
+*.tmp
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Archivos temporales de internet
+Archivos\ temporales\ de\ Internet/
+Configuración\ local/
+Cookies/
+Datos\ de\ programa/
+Entorno\ de\ red/
+Impresoras/
+Menú\ Inicio/
+Mis\ documentos/
+Plantillas/
+Reciente/
+SendTo/
+
+# Archivos personales y de configuración IDE
+*.iml
+*.sublime-project
+*.sublime-workspace
